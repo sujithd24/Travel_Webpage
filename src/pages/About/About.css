@@ -1,0 +1,13 @@
+.aboutContent{
+    padding: 5%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-style: oblique;
+}
+
+.aboutContent h1{
+    padding-top: 1%;
+    padding-bottom: -1%;
+}

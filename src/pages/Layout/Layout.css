@@ -1,0 +1,63 @@
+.navContent{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    position: fixed;
+    width: 100%;
+    font-size: 12px;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(39, 44, 72);
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.logo{
+    margin-right: 55%;
+}
+
+.home , .places , .about , .logo{
+    padding-right: 2%;
+    border-radius: 10px;
+    padding-left: 2%;
+    cursor: pointer;
+}
+
+.home a ,  .about a , .places h1 , .logo h1{
+    text-decoration: none;
+    color: white;
+
+}
+
+.home:hover , .places:hover , .about:hover {background-color:rgb(19, 24, 51) ;}
+
+.placeName{
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(209, 222, 233, 0.714);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.placeName a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.placeName a:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.places{
+    position: relative;
+    display: inline-block;
+}
+
+.places:hover .placeName{
+    display: block;
+}

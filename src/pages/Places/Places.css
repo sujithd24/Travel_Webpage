@@ -1,0 +1,64 @@
+.placeContent{
+   
+    padding-top: 4.85%;
+    font-style: oblique
+}
+
+.placeHeading{
+    background-image: url('../../images/placeBackground/placeBG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    padding: 1%;
+    
+}
+
+.placeHeading h1{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.156);
+    border-radius: 10px;
+}
+
+.placeHeading p{
+    font-size: 40px;
+    text-align: justify;
+    color: white;
+    background-color: rgba(240, 248, 255, 0.156);
+    border-radius: 10px;
+}
+
+.placeDetial{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.box{
+    display: block;
+    text-align: justify;
+    width: 15%;
+    height: max-content;
+    padding: 1%;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.407);
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.box:hover{
+    box-shadow: 10px 15px 20px 10px rgba(0,0,0,0.2);
+    
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.endPlace{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+}
