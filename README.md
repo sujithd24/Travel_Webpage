@@ -15,10 +15,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 ## Install npm module
 
 <hr>
-###npm install
+
+### npm install
+
 <hr>
 
 ## Install React Script
 <hr>
-###npm i react-script
+
+### npm i react-script
+
 <hr>
